@@ -1,13 +1,10 @@
-.body {
-    border: 0px;
-    margin: 0px;
-}
+
 
 .flex {
     display: flex;
 }
 
-.flex-column {
+.flex-col {
     flex-direction: column;
 }
 
@@ -51,6 +48,10 @@
     flex: 3;
 }
 
+.flex-3-5 {
+    flex: 3.5;
+}
+
 .flex-4 {
     flex: 4;
 }
@@ -63,3 +64,6 @@
     height: 100vh;
 }
 
+.pd-r-1 {
+    padding-right: 20px;
+}
