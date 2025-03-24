@@ -1,3 +1,8 @@
+.body {
+    border: 0px;
+    margin: 0px;
+}
+
 .flex {
     display: flex;
 }
@@ -52,5 +57,9 @@
 
 .flex-5 {
     flex: 5;
+}
+
+.container {
+    height: 100vh;
 }
 
