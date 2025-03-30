@@ -198,10 +198,11 @@
 
 .chat-msg-get {
     width: 402px;
-    height: 70px;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 10px;
+    height: auto;
+    min-height: 48px;
+    background-color: #f1f1f1;
+    border-radius: 18px 18px 18px 0;
+    padding: 12px 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -210,14 +211,18 @@
     align-self: flex-start;
     margin-right: auto;
     max-width: 70%;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    position: relative;
+    word-wrap: break-word;
 }
 
 .chat-msg-post {
     width: auto;
-    height: 48px;
-    background-color: #78e378;
-    border-radius: 12px;
-    padding: 10px;
+    height: auto;
+    min-height: 48px;
+    background-color: #e1ffc7;
+    border-radius: 18px 18px 0 18px;
+    padding: 12px 15px;
     margin-top: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -225,6 +230,13 @@
     align-self: flex-end;
     margin-left: auto;
     max-width: 70%;
+    box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+    position: relative;
+    word-wrap: break-word;
+}
+
+.chat-msg-get:hover, .chat-msg-post:hover {
+    filter: brightness(0.95);
 }
 
 .chat-icon {
@@ -273,3 +285,6 @@
     font-size: 14px;
     margin-right: 4px;
 }
+
+
+
